@@ -52,6 +52,7 @@ void rec(int arr[], int low, int high, size_t size)
 	if (low < high)
 	{
 		int pi = part(arr, low, high, size);
+
 		rec(arr, low, pi - 1, size);
 		rec(arr, pi + 1, high, size);
 	}
