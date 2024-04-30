@@ -57,6 +57,8 @@ void print_list(const listint_t *list)
 	}
 	printf("\n");
 }
+void print_list(const listint_t *list);
+void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void _swap(int *arr, int ind_one, int ind_two);
 #endif
