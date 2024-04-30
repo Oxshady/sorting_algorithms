@@ -22,10 +22,10 @@ void _swap(int *arr, int ind_one, int ind_two)
  */
 void bubble_sort(int *array, size_t size)
 {
-	if (size < 2)
-		return;
 	size_t i = 0, ii = 0, flag = 0;
 
+	if (size < 2)
+		return;
 	for (; i < size - 1; i++)
 	{
 		for (ii = 0; ii < size - i - 1; ii++)
